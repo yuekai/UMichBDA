@@ -1,0 +1,20 @@
+Package: UMichBDA
+Type: Package
+Title: Data and helper functions for the Bayesian Data Analysis at the University of Michigan
+Version: 0.3.1
+Date: 2020-08-31
+Author: Mans Magnusson
+Maintainer: Yuekai Sun <yuekai@umich.edu>
+Description: Data and helper functions for the Bayesian Data Analysis (BDA) at the University of Michigan. This package is based on the package for the BDA course at Aalto University.
+License: MIT 
+Depends:
+    R (>= 3.1.2)
+Imports:
+    checkmate,
+    stats
+Suggests:
+    ggplot2,
+    testthat
+RoxygenNote: 7.1.0
+LazyData: true
+Encoding: UTF-8
